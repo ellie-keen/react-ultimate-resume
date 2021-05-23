@@ -72,7 +72,10 @@ const Content = ({ data, handleAddButtonClick, classes }) => {
         <>
             <ProfileCardFrontVector classes={{ container: classes.logo }} vector={SpotifyLogo} />
             <ProfileCardFrontTypography classes={{ container: classes.typography }}>
-                <FormattedMessage id="Soundtrack.front.title" defaultMessage="Discover my favourite tracks" />
+                <FormattedMessage
+                    id="Soundtrack.front.title"
+                    defaultMessage="Check out what I'm listening to right now"
+                />
             </ProfileCardFrontTypography>
         </>
     );
